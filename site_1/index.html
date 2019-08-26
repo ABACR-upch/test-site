@@ -2,69 +2,61 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Mostrando Imagnes</title>
+	<title>Selectores</title>
 <style>
-	h1{
-		color: blue;
-		font-size: 20px;
-		width: 200px;
+p.big{
+	font-size: 30px;
+}
+article > p {
+	color: red;
+}
+article p{
+	color: blue;
+}
+.colored p{
+	color: yellow;
+}
+article > .colored{
+	color: green;
+}
+.gaaa + .fuaaa{
+	color: lime;
+}
+.gaaa ~ .lol{
+	color: silver;
+}
 
-	}
-
-	.highlight {
-		color: green;
-		font-size: 36px;
-		text-align:center;
-	}
-
-	#mainpoint {
-		color: red;
-		font-size: 50px;
-	}
+.big.crimson{
+	font-size: 50px;
+	color:crimson;
+}
 </style>
 </head>
 	<body>
-	<h1>Imagenes</h1>
-	<p>
-		<img src="picture-with-caption.jpeg" width="100" height="100" alt="release the kat 1"> &quot;You have to release the cat 1anytime&quot;		
-	</p>
-	<p>
-		<img src="http://www.petmd.com/sites/default/files/what-does-it-mean-when-cat-wags-tail.jpg" width="100" height="100" alt="release the kat 2"> &quot;You have to release the cat 2 anytime&quot;
-	</p>
-	<p>
-		<img src="picture-with-caption.jpeg" alt="release the kat 3"> &quot;You have to release the cat 3 anytime&quot;		
-	</p>
-	<p>
-		<img src="http://www.petmd.com/sites/default/files/what-does-it-mean-when-cat-wags-tail.jpg"alt="release the kat 4"> &quot;You have to release the cat 4 anytime&quot;
-	</p>
-	<h1> Enlaces dentro de la pagina</h1>
-	<section>
-		<ul>
-			<li><a href="#section1">#section1</a></li>
-			<li><a href="#section2">#section2</a></li>
-			<li><a href="#section3">#section3</a></li>
-			<li><a href="#section4">#section4</a></li>
-			<li><a href="#section5">#section5</a></li>
-			<li><a href="#section6">#section6</a></li>	
-		</ul>	
-	</section>
-	<section id="section1">
-		<h3>Seccion 1</h3>
-		<p class="highlight">
-			Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 
-		</p>
-	</section>	
-	<section id="section2">
-		<h3>Seccion 2</h3>
-		<p id="mainpoint">
-			Seccion2Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1
-		</p>
-	</section>
-	<section id="section3">
-		<h3>Seccion 1</h3>
+	<h1>HOLA</h1>
+	<article>
+		<div>
+		HOLA
 		<p>
-			Seccion3Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1Seccion1 Seccion1
+			PARARAFO HIJO NO DIRECTO DE ARTICULO
 		</p>
-	</section>
+		</div>
+		<p>
+			PARRAFO HIJO DIRECTO DE ARTICULO
+		</p>
+	</article>
+	<p class="big">
+		PARRAFO CON CLASE BIG
+	</p>
+
+	<div class ="colored">
+		<p>
+			PARRAFO CUYO PADRE aunque no DIRECTO TIENE CLASE COLORED
+		</p>
+	</div>
+		<p class="big crimson">
+			TEXTO CON DOBLE  CLASE
+		</p>
+
 	</body>
 </html>
